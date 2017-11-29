@@ -24,7 +24,8 @@
         "drupal-composer/drupal-scaffold": "^2.0.0",
         "cweagans/composer-patches": "^1.6.0",
         "acquia/lightning": "~2.2.0",
-        "drupal/core": "~8.4.0"
+        "drupal/core": "~8.4.0",
+        "mta/mta_distro": "dev-master"
     },
     "repositories": [
         {
@@ -34,6 +35,10 @@
         {
             "type": "composer",
             "url": "https://asset-packagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "git@bitbucket.org:muslimtv/mta-distro.git"
         }
     ],
     "scripts": {
